@@ -1,4 +1,5 @@
 /.bundle
+/.idea
 /.librarian
 /.projects
 /.snapshot
@@ -10,3 +11,4 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
+our-boxen.iml
