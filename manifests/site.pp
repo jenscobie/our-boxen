@@ -84,8 +84,6 @@ node default {
     ]:
   }
 
-  include dropbox
-
   # browsers
   include chrome
 
