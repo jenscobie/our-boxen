@@ -91,9 +91,10 @@ node default {
   package {
     [
       'ack',
+      'colordiff',
       'findutils',
       'gnu-tar',
-      'colordiff'
+      'maven'
     ]:
   }
 
