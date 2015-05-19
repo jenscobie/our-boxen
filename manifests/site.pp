@@ -58,6 +58,7 @@ node default {
   include git_config
   include hub
   include nginx
+  include wget
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -91,12 +92,19 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'colordiff'
     ]:
   }
 
   # browsers
   include chrome
+
+  # vm tools
+  include virtualbox
+  include vagrant
+
+  include boxen_profile
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
