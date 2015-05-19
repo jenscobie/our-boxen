@@ -105,6 +105,7 @@ node default {
   include vagrant
 
   include boxen_profile
+  include fonts
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
