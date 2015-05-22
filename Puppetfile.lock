@@ -29,11 +29,6 @@ GITHUBTARBALL
     evernote (2.0.7)
 
 GITHUBTARBALL
-  remote: boxen/puppet-fonts
-  specs:
-    fonts (0.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -175,7 +170,6 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
   evernote (= 2.0.7)
-  fonts (= 0.0.3)
   foreman (= 1.2.0)
   gcc (= 2.2.1)
   git (= 2.7.9)
