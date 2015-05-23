@@ -102,6 +102,7 @@ node default {
   include chrome
 
   # vm tools
+  include packer
   include virtualbox
   include vagrant
 
