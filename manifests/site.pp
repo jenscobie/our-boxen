@@ -87,6 +87,8 @@ node default {
     version => '2.1.2'
   }
 
+  include python
+
   # common, useful packages
   package {
     [
