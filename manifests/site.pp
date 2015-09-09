@@ -65,8 +65,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  include java
-
   # node versions
   nodejs::version { 'v0.6': }
   nodejs::version { 'v0.8': }
