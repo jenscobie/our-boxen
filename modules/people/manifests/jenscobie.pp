@@ -18,6 +18,8 @@ class people::jenscobie {
     size => 36
   }
 
+  include atom
+
   class { 'intellij':
     edition => 'ultimate',
     version => '14.1.4'
