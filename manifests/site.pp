@@ -93,8 +93,7 @@ node default {
       'ack',
       'colordiff',
       'findutils',
-      'gnu-tar',
-      'maven'
+      'gnu-tar'
     ]:
   }
 
