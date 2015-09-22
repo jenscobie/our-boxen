@@ -64,16 +64,7 @@ node default {
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
-
-  # node versions
-  nodejs::version { 'v0.6': }
-  nodejs::version { 'v0.8': }
-  nodejs::version { 'v0.10': }
-
-  class { 'nodejs::global':
-    version => 'v0.10'
-  }
-
+  
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }

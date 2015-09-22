@@ -74,11 +74,6 @@ GITHUBTARBALL
     nginx (1.4.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (4.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-onepassword
   specs:
     onepassword (1.1.5)
@@ -191,7 +186,6 @@ DEPENDENCIES
   intellij (= 1.5.1)
   module_data (= 0.0.3)
   nginx (= 1.4.6)
-  nodejs (= 4.0.1)
   onepassword (= 1.1.5)
   openssl (= 1.0.0)
   osx (= 2.8.0)
