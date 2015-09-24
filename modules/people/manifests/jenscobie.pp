@@ -32,6 +32,6 @@ class people::jenscobie {
   }
 
   git::config::global { 'user.email':
-    value  => 'jenscobie@gmail.com'
+    value  => 'jen.scobie@meetearnest.com'
   }
 }
