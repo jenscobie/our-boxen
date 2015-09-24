@@ -4,6 +4,7 @@ class myorg::environment {
   include dropbox
   include fonts
   include onepassword
+  include vault
   include viscosity
   include wget
 

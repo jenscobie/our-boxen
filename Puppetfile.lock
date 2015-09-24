@@ -139,6 +139,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: jenscobie/puppet-vault
+  specs:
+    vault (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.4.2)
@@ -188,6 +193,7 @@ DEPENDENCIES
   skype (= 1.1.0)
   stdlib (= 4.8.0)
   sudo (= 1.0.0)
+  vault (= 1.0.0)
   viscosity (= 1.0.0)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
