@@ -3,6 +3,7 @@ class people::jenscobie {
   include atom
   include evernote
   include scansnap
+  include screenhero
   include skype
 
   include osx::global::tap_to_click
