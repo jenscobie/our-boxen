@@ -58,26 +58,13 @@ node default {
   include git_config
   include hub
   include nginx
-  include wget
-  include viscosity
+
+  include myorg::environment
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
-
-  # default ruby versions
-  ruby::version { '1.9.3': }
-  ruby::version { '2.0.0': }
-  ruby::version { '2.1.0': }
-  ruby::version { '2.1.1': }
-  ruby::version { '2.1.2': }
-
-  class { 'ruby::global':
-    version => '2.1.2'
-  }
-
-  include python
 
   # common, useful packages
   package {
@@ -88,17 +75,6 @@ node default {
       'gnu-tar'
     ]:
   }
-
-  # browsers
-  include chrome
-
-  # vm tools
-  include packer
-  include virtualbox
-  include vagrant
-
-  include boxen_profile
-  include fonts
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
