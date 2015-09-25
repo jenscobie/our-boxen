@@ -5,6 +5,7 @@ class myorg::environment {
   include fonts
   include onepassword
   include vault
+  include virtualbox
   include viscosity
   include wget
 

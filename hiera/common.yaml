@@ -1,2 +1,5 @@
 ---
 ruby::global::version: "2.2.2"
+
+virtualbox::version: "5.0.4"
+virtualbox::patch_level: "102546"

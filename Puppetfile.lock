@@ -124,6 +124,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
   remote: boxen/puppet-viscosity
   specs:
     viscosity (1.0.0)
@@ -194,6 +199,7 @@ DEPENDENCIES
   stdlib (= 4.8.0)
   sudo (= 1.0.0)
   vault (= 1.0.0)
+  virtualbox (= 1.0.13)
   viscosity (= 1.0.0)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
