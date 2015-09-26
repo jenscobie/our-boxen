@@ -1,6 +1,7 @@
 class myorg::environment {
   include boxen_profile
   include chrome
+  include docker
   include dropbox
   include fonts
   include onepassword

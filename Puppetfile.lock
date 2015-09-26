@@ -144,6 +144,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: jenscobie/puppet-docker
+  specs:
+    docker (1.0.1)
+
+GITHUBTARBALL
   remote: jenscobie/puppet-vault
   specs:
     vault (1.0.0)
@@ -174,6 +179,7 @@ DEPENDENCIES
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
   dnsmasq (= 2.0.1)
+  docker (= 1.0.1)
   dropbox (= 1.4.1)
   evernote (= 2.0.7)
   foreman (= 1.2.0)
